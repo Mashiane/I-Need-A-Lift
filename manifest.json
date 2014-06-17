@@ -1,0 +1,12 @@
+{ "manifest_version": 2,
+  "name": "I-Need-A-Lift",
+  "version": "1.0.72",
+  "offline_enabled": true,
+  "description": "",
+  "display_in_launcher": true,
+  "display_in_new_tab_page": true,
+  "short_name": "I-Need-A-Lift",
+  "icons": { "16": "/16.png",
+            "128": "/128.png" },
+  "author": "NdimkaMbulelo Trading & Projects",
+  "app": {"background": {"scripts": ["background.js"]}}}

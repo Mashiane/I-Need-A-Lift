@@ -1,0 +1,303 @@
+﻿<!DOCTYPE HTML>
+<html manifest="OfflineApp.appcache">
+<head>
+<meta charset="utf-8">
+<title>I-Need-A-Lift</title>
+<meta name="generator" content="NSB/AppStudio 4.1.3.1$kpdj" />
+<meta name='date' content='2014-06-17 12:57:01.390000' />
+<meta name='version' content='1.0.72' />
+<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no, minimal-ui' />
+<meta name='apple-mobile-web-app-capable' content='YES' />
+<meta name='mobile-web-app-capable' content='yes' />
+<meta name='apple-mobile-web-app-status-bar-style' content='default' />
+<meta name='apple-mobile-web-app-title' content='I-Need-A-Lift' />
+<meta name='copyright' content='NdimkaMbulelo Trading & Projects' />
+<noscript><h1>JavaScript must be enabled!</h1></noscript>
+<link rel='apple-touch-icon' href='80.png' />
+<!-- Startup images -->
+<!-- iOS 6 & 7 iPad (retina, portrait) -->
+<link href='splash/ios/1536x2008.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: portrait)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 & 7 iPad (retina, landscape) -->
+<link href='splash/ios/1496x2048.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: landscape)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 iPad (portrait) -->
+<link href='splash/ios/768x1004.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: portrait)
+         and (-webkit-device-pixel-ratio: 1)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 iPad (landscape) -->
+<link href='splash/ios/748x1024.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: landscape)
+         and (-webkit-device-pixel-ratio: 1)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 & 7 iPhone 5 -->
+<link href='splash/ios/640x1096.png'
+      media='(device-width: 320px) and (device-height: 568px)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 & 7 iPhone (retina) -->
+<link href='splash/ios/640x920.png'
+      media='(device-width: 320px) and (device-height: 480px)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 iPhone -->
+<link href='splash/ios/320x460.png'
+      media='(device-width: 320px) and (device-height: 480px)
+         and (-webkit-device-pixel-ratio: 1)'
+      rel='apple-touch-startup-image'>
+<link rel='shortcut icon' sizes='196x196' href='80.png' />
+<script src="nsb/jquery.js"></script>
+<script src="nsb/hfunc.js"></script>
+<link href="nsb/nsbstyle.css" rel="stylesheet">
+<script src="nsb/fastclick.js"></script>
+<script src="nsb/complexfunctions.js"></script>
+<script src="nsb/jquery.mobile.js"></script>
+<link href="nsb/jquery.mobile.css" rel="stylesheet">
+<script src="nsb/iscroll.js"></script>
+<link href="nsb/css/style.css" rel="stylesheet">
+
+<script src="nsb/library/jquery.xml2json.js"></script>
+<link href="nsb/library/addtohomescreen.css" rel="stylesheet">
+<script src="nsb/library/addtohomescreen.min.js"></script>
+<script src="17.js"></script>
+
+
+<style type="text/css">
+#hdrMain {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstMain_scroller {position: absolute; overflow:hidden; width:100%; height:auto; left:0px; top:42px;}
+#lstMain {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#lstMain {left:0px; top:42px;}
+#hdTC {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#txtTC {position:absolute; left:5px; right:auto; top:45px; bottom:auto; height:44px; width:96%}
+#hdLiftSearch {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#hdSignUp {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#txtSignUp_scroller {position: absolute; overflow:hidden; width:300px; height:10px; left:0px; top:47px}
+#txtSignUp {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#txtSignUp {left:0px; top:47px;}
+#hdLiftClub {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#hdLifts {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstLifts_scroller {position: absolute; overflow:hidden; width:100%; height:auto; left:0px; top:42px;}
+#lstLifts {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#lstLifts {left:0px; top:42px;}
+#hdVehicle {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#vh_scroller {position: absolute; overflow:hidden; width:300px; height:10px; left:0px; top:47px}
+#vh {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#vh {left:0px; top:47px;}
+#hdOffer {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#liftoffer_scroller {position: absolute; overflow:hidden; width:300px; height:10px; left:0px; top:47px}
+#liftoffer {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#liftoffer {left:0px; top:47px;}
+#liftoffer1_scroller {position: absolute; overflow:hidden; width:300px; height:10px; left:0px; top:231px}
+#liftoffer1 {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#liftoffer1 {left:0px; top:231px;}
+#txtNotes {position:absolute; left:10px; right:auto; top:372px; bottom:auto; height:81px; width:300px}
+#cboOfferFrom {position:absolute; left:190px; right:auto; top:51px; bottom:auto; height:40px; width:240px}
+#cboOfferTo {position:absolute; left:195px; right:auto; top:95px; bottom:auto; height:40px; width:240px}
+#cboOfferVehicle {position:absolute; left:205px; right:auto; top:279px; bottom:auto; height:40px; width:240px}
+#hdBook {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#liftbook_scroller {position: absolute; overflow:hidden; width:300px; height:10px; left:0px; top:47px}
+#liftbook {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#liftbook {left:0px; top:47px;}
+#txtBookNotes {position:absolute; left:10px; right:auto; top:367px; bottom:auto; height:81px; width:300px}
+#hdrAfterLogin {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstAfterLogin_scroller {position: absolute; overflow:hidden; width:100%; height:auto; left:0px; top:42px;}
+#lstAfterLogin {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#lstAfterLogin {left:0px; top:42px;}
+#hdLogin {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#txtLogin_scroller {position: absolute; overflow:hidden; width:300px; height:10px; left:0px; top:42px}
+#txtLogin {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#txtLogin {left:0px; top:42px;}
+#ftLogin {position: absolute; width:100%; height:auto; left:0px; bottom:0px;}
+#hdRegCode {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#txtRegCode_scroller {position: absolute; overflow:hidden; width:300px; height:10px; left:0px; top:42px}
+#txtRegCode {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#txtRegCode {left:0px; top:42px;}
+#ftRegCode {position: absolute; width:100%; height:auto; left:0px; bottom:0px;}
+#Label1 {position:absolute; left:10px; right:auto; top:142px; bottom:auto; height:auto; width:300px}
+#hdNextOfKin {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#txtNextOfKin_scroller {position: absolute; overflow:hidden; width:300px; height:10px; left:0px; top:47px}
+#txtNextOfKin {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#txtNextOfKin {left:0px; top:47px;}
+#hdChooser {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstChooser_scroller {position: absolute; overflow:hidden; width:100%; height:auto; left:0px; top:42px;}
+#lstChooser {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#lstChooser {left:0px; top:42px;}
+#hdRequest {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#liftRequest_scroller {position: absolute; overflow:hidden; width:300px; height:10px; left:0px; top:47px}
+#liftRequest {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#liftRequest {left:0px; top:47px;}
+#liftRequest1_scroller {position: absolute; overflow:hidden; width:300px; height:10px; left:0px; top:231px}
+#liftRequest1 {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#liftRequest1 {left:0px; top:231px;}
+#txtRequestNotes {position:absolute; left:10px; right:auto; top:330px; bottom:auto; height:121px; width:300px}
+#cboRequestFrom {position:absolute; left:190px; right:auto; top:52px; bottom:auto; height:44px; width:240px}
+#cboRequestTo {position:absolute; left:195px; right:auto; top:94px; bottom:auto; height:44px; width:240px}
+#hdRequests {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstRequests_scroller {position: absolute; overflow:hidden; width:100%; height:100px; left:0px; top:42px;}
+#lstRequests {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#hdOffers {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstOffers_scroller {position: absolute; overflow:hidden; width:100%; height:100px; left:0px; top:42px;}
+#lstOffers {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#hdVehicles {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstVehicles_scroller {position: absolute; overflow:hidden; width:100%; height:100px; left:0px; top:42px;}
+#lstVehicles {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#hdOpenOffer {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstOpenOffer_scroller {position: absolute; overflow:hidden; width:100%; height:auto; left:0px; top:42px;}
+#lstOpenOffer {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#lstOpenOffer {left:0px; top:42px;}
+#fbOpenOffer {position: absolute; width:100%; height:auto; left:0px; bottom:0px;}
+#hdMyBookings {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstMyBookings_scroller {position: absolute; overflow:hidden; width:100%; height:100px; left:0px; top:42px;}
+#lstMyBookings {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#hdMyOffers {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstMyOffers_scroller {position: absolute; overflow:hidden; width:100%; height:100px; left:0px; top:42px;}
+#lstMyOffers {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+#hdOpenBooking {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstOpenBooking_scroller {position: absolute; overflow:hidden; width:100%; height:auto; left:0px; top:42px;}
+#lstOpenBooking {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#lstOpenBooking {left:0px; top:42px;}
+#fbOpenBooking {position: absolute; width:100%; height:auto; left:0px; bottom:0px;}
+#hdMyRequests {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lstMyRequests_scroller {position: absolute; overflow:hidden; width:100%; height:100px; left:0px; top:42px;}
+#lstMyRequests {position:absolute; left:0px; top:0px; width:100%; height:auto }
+
+body * {font-family:helvetica}
+</style>
+</head>
+<body style="margin:0px;-ms-touch-action:none;">
+<script src="19.js"></script>
+<div data-role="page" id="Page_jqm" data-theme="a" style="">
+
+<form id="frmMain" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="21.js"></script>
+</form>
+
+
+<form id="frmTC" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="23.js"></script>
+</form>
+
+
+<form id="frmLiftSearch" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="25.js"></script>
+</form>
+
+
+<form id="frmSignUp" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="27.js"></script>
+</form>
+
+
+<form id="frmLiftClubs" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="29.js"></script>
+</form>
+
+
+<form id="frmLifts" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="31.js"></script>
+</form>
+
+
+<form id="frmAddVehicle" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="33.js"></script>
+</form>
+
+
+<form id="frmOffer" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="35.js"></script>
+</form>
+
+
+<form id="frmBook" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="37.js"></script>
+</form>
+
+
+<form id="frmAfterLogin" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="39.js"></script>
+</form>
+
+
+<form id="frmLogin" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="41.js"></script>
+</form>
+
+
+<form id="frmRegCode" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="43.js"></script>
+</form>
+
+
+<form id="frmNextOfKin" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="45.js"></script>
+</form>
+
+
+<form id="frmChooser" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="47.js"></script>
+</form>
+
+
+<form id="frmRequest" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="49.js"></script>
+</form>
+
+
+<form id="frmRequests" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="51.js"></script>
+</form>
+
+
+<form id="frmOffers" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="53.js"></script>
+</form>
+
+
+<form id="frmVehicles" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="55.js"></script>
+</form>
+
+
+<form id="frmOpenOffer" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="57.js"></script>
+</form>
+
+
+<form id="frmMyBookings" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="59.js"></script>
+</form>
+
+
+<form id="frmMyOffers" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="61.js"></script>
+</form>
+
+
+<form id="frmOpenBooking" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="63.js"></script>
+</form>
+
+
+<form id="frmMyRequests" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="65.js"></script>
+</form>
+
+</div>
+<script src="67.js"></script><style>#ftLogin_0:after{background-Image:url("login32.png")}#ftLogin_1:after{background-Image:url("password32.png")}#ftLogin_2:after{background-Image:url("secret16.png")}#ftSignUp_0:after{background-Image:url("save32.png")}#ftSignUp_1:after{background-Image:url("nok32.png")}#ftSignUp_2:after{background-Image:url("vehicle32.png")}#ftRegCode_0:after{background-Image:url("activate16.png")}#ftRegCode_1:after{background-Image:url("resend16.png")}#fbOpenOffer_0:after{background-Image:url("call25.png")}#fbOpenOffer_1:after{background-Image:url("sms25.png")}#fbOpenOffer_2:after{background-Image:url("accept25.png")}#fbOpenBooking_0:after{background-Image:url("call25.png")}#fbOpenBooking_1:after{background-Image:url("sms25.png")}#fbOpenBooking_2:after{background-Image:url("cancel25.png")}</style><script src="69.js"></script><style>.select select{-webkit-border-radius:5px;color:#000;font-weight:normal;font-size:14px}.select select{border-radius:5px 5px 5px 5px;line-height:14px;}.select select{-moz-border-radius:5px;}.select select{border:1px solid#ccc;}.select select{text-overflow:ellipsis;white-space:nowrap;}.bigfield input{font-weight:normal;font-size:14px}.smallfield input{font-weight:normal;font-size:14px}.ui-header.ui-title,.ui-footer.ui-title{margin-right:0!important;margin-left:0!important;}</style><script src="71.js"></script>
+
+</body>
+</html>
